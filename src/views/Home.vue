@@ -316,7 +316,12 @@
             <div class="row tab-pane in" id="tab2">
               <div>
                 S&eacute;lectionnez un pays :
-                <select id="py2"> </select>
+                <select id="py2">
+                   <option v-for="rev in revs" :key="rev.key" >
+                     {{ rev }} ---
+                   </option>
+
+                </select>
               </div>
               <div class="table-responsive">
                 <div id="tableau2"></div>
@@ -522,10 +527,14 @@
   </div>
 </template>
 <script>
-const media = require('../data/revs.json');
 
 export default {
   name: "home",
+  data() {
+    return { 
+      revs : require('../data/revs.json')
+     }
+  },
   methods : {
     openExample() {
 

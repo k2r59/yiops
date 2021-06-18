@@ -1,0 +1,221 @@
+AR;SMS Billing;12,00 ARS; 0,20 EUR ; 0,14 EUR ; 0,10 EUR ; - ; - ; 0,16 EUR ; -;40%;12,5%
+AR;SMS Billing;7,50 ARS; 0,09 EUR ; 0,08 EUR ; - ; - ; - ; 0,09 EUR;+0,01 EUR ;-78%;11,1%
+AT;SMS Billing;3,00 EUR; 1,38 EUR ; 1,15 EUR ; 1,12 EUR ; - ; - ; 1,17 EUR ; 0,21 EUR ;15%;1,7%
+AU;SMS Billing;2,00 AUD; 0,57 EUR ; 0,38 EUR ; - ; - ; - ; 0,40 EUR ; 0,17 EUR ;30%;5,3%
+AU;SMS Billing;3,00 AUD; 0,78 EUR ; 0,62 EUR ; - ; - ; - ; 0,64 EUR ; 0,14 EUR ;18%;3,2%
+AU;SMS Billing;4,00 AUD; 1,18 EUR ; 0,86 EUR ; 1,11 EUR ; - ; - ; 1,13 EUR ; 0,05 EUR ;4%;1,8%
+AU;SMS Billing;5,00 AUD; 1,64 EUR ; 1,10 EUR ; 1,33 EUR ; 1,20 EUR ; - ; 1,35 EUR ; 0,29 EUR ;18%;1,5%
+AU;SMS Billing;6,60 AUD; 1,97 EUR ; 1,51 EUR ; - ; 1,70 EUR ; - ; 1,72 EUR ; 0,25 EUR ;13%;1,2%
+BA;SMS Billing;0,59 BAM; 0,08 EUR ; 0,07 EUR ; - ; - ; - ; 0,07 EUR ; 0,01 EUR ;13%;0,0%
+BA;SMS Billing;2,34 BAM; 0,40 EUR ; 0,32 EUR ; 0,35 EUR ; - ; - ; 0,37 EUR ; 0,03 EUR ;8%;5,7%
+BE;Pay by Call;1,00 EUR; 0,58 EUR ; 0,50 EUR ; - ; - ; - ; 0,52 EUR ; 0,06 EUR ;10%;4,0%
+BE;Pay by Call;2,00 EUR; 1,26 EUR ; 1,10 EUR ; - ; - ; - ; 1,12 EUR ; 0,14 EUR ;11%;1,8%
+BE;Pay by Call;2,25 EUR; 1,88 EUR ; 1,13 EUR ; - ; - ; - ; 1,15 EUR ; 0,73 EUR ;39%;1,8%
+BE;SMS Billing;0,50 EUR; 0,12 EUR ; 0,11 EUR ; - ; - ; 0,16 EUR ; 0,16 EUR ;-0,04 EUR ;-33%;0,0%
+BE;SMS Billing;1,00 EUR; 0,37 EUR ; 0,32 EUR ; 0,31 EUR ; - ; 0,31 EUR ; 0,34 EUR ; 0,03 EUR ;8%;6,3%
+BE;SMS Billing;2,00 EUR; 1,08 EUR ; 0,73 EUR ; 0,73 EUR ; 0,60 EUR ; 0,75 EUR ; 0,77 EUR ; 0,31 EUR ;29%;2,7%
+BE;SMS Billing;3,00 EUR; 1,56 EUR ; 1,25 EUR ; 1,20 EUR ; 1,02 EUR ; - ; 1,27 EUR ; 0,29 EUR ;19%;1,6%
+BG;SMS Billing;2,40 BGN; 0,43 EUR ; 0,40 EUR ; 0,30 EUR ; 0,38 EUR ;; 0,40 EUR ; 0,03 EUR ;7%;0,0%
+BG;SMS Billing;4,80 BGN; 0,87 EUR ; 0,85 EUR ; - ; 0,80 EUR ;; 0,85 EUR ; 0,02 EUR ;2%;0,0%
+BR;SMS Billing;2,85 BRL; 0,16 EUR ; 0,13 EUR ;; 0,15 EUR ;; 0,15 EUR ; 0,01 EUR ;6%;0,0%
+BR;SMS Billing;5,72 BRL; 0,38 EUR ; 0,32 EUR ; 0,24 EUR ; 0,26 EUR ;; 0,34 EUR ; 0,04 EUR ;11%;6,3%
+BR;SMS Billing;9,99 BRL; 0,64 EUR ; 0,53 EUR ; - ; 0,55 EUR ;; 0,57 EUR ; 0,07 EUR ;11%;3,6%
+CA;Pay by Call;3,00 CAD; 1,40 EUR ; 0,66 EUR ; 0,47 EUR ;; 0,82 EUR ; 0,84 EUR ; 0,56 EUR ;40%;2,4%
+CA;Pay by Call;5,00 CAD; 2,39 EUR ; 0,94 EUR ; 0,64 EUR ; 1,55 EUR ; 1,05 EUR ; 1,57 EUR ; 0,82 EUR ;34%;1,3%
+CA;Pay by Call;7,00 CAD; 3,33 EUR ; 1,58 EUR ; 1,10 EUR ; 2,25 EUR ; - ; 2,27 EUR ; 1,06 EUR ;32%;0,9%
+CH;Pay by Call;4,50 CHF; 4,11 EUR ; 1,00 EUR ; 1,37 EUR ; - ; 1,24 EUR ; 1,39 EUR ; 2,72 EUR ;66%;1,5%
+CH;Pay by Call;6,35 CHF; 4,69 EUR ; 1,53 EUR ; - ; 1,65 EUR ; - ; 1,67 EUR ; 3,02 EUR ;64%;1,2%
+CH;Pay by Call;9,00 CHF; 7,39 EUR ; 1,88 EUR ; - ; - ; - ; 1,90 EUR ; 5,49 EUR ;74%;1,1%
+CH;SMS Billing;1,00 CHF; 0,42 EUR ; 0,28 EUR ; - ; - ; - ; 0,30 EUR ; 0,12 EUR ;29%;7,1%
+CH;SMS Billing;10,00 CHF; 4,54 EUR ; 3,08 EUR ; 2,79 EUR ; - ; - ; 3,10 EUR ; 1,44 EUR ;32%;0,6%
+CH;SMS Billing;2,00 CHF; 0,87 EUR ; 0,59 EUR ; 0,51 EUR ; 0,44 EUR ; 0,37 EUR ; 0,61 EUR ; 0,26 EUR ;30%;3,4%
+CH;SMS Billing;3,00 CHF; 1,32 EUR ; 0,90 EUR ; 0,77 EUR ; 0,66 EUR ; 0,65 EUR ; 0,92 EUR ; 0,40 EUR ;30%;2,2%
+CH;SMS Billing;5,00 CHF; 2,26 EUR ; 1,34 EUR ; - ; - ; 1,02 EUR ; 1,36 EUR ; 0,90 EUR ;40%;1,5%
+CL;SMS Billing;900 CPL; 0,32 EUR ; 0,25 EUR ; - ; - ; - ; 0,27 EUR ; 0,05 EUR ;16%;8,0%
+CO;SMS Billing;3,596 COP; 0,32 EUR ; 0,25 EUR ; 0,16 EUR ; - ; - ; 0,27 EUR ; 0,05 EUR ;16%;8,0%
+CR;SMS Billing;1469 CRC; 0,54 EUR ; 0,42 EUR ; - ; - ; - ; 0,44 EUR ; 0,10 EUR ;19%;4,8%
+CR;SMS Billing;734,50 CRC; 0,27 EUR ; 0,21 EUR ; 0,33 EUR ; - ; - ; 0,33 EUR ;-0,06 EUR ;-20%;0,0%
+CZ;SMS Billing;20,00 CZK; 0,22 EUR ; 0,19 EUR ; - ; - ; - ; 0,19 EUR ; 0,03 EUR ;14%;0,0%
+CZ;SMS Billing;50,00 CZK; 0,65 EUR ; 0,55 EUR ; 0,56 EUR ; - ; - ; 0,58 EUR ; 0,07 EUR ;11%;3,6%
+CZ;SMS Billing;99,00 CZK; 1,44 EUR ; 1,10 EUR ; 1,30 EUR ; - ; - ; 1,32 EUR ; 0,12 EUR ;8%;1,5%
+DE;Pay by Call;3,00 EUR; 2,30 EUR ; 1,00 EUR ; 1,74 EUR ; 1,40 EUR ; - ; 1,76 EUR ; 0,54 EUR ;23%;1,1%
+DE;Pay by Call;5,00 EUR; 3,52 EUR ; 2,04 EUR ; 2,99 EUR ; - ; - ; 2,99 EUR ; 0,51 EUR ;14%;0,0%
+DE;SMS Billing;0,49 EUR; 0,17 EUR ; 0,16 EUR ; 0,16 EUR ; - ; - ; 0,16 EUR ; 0,01 EUR ;6%;0,0%
+DE;SMS Billing;0,99 EUR; 0,45 EUR ; 0,41 EUR ; 0,38 EUR ; - ; - ; 0,41 EUR ; 0,04 EUR ;9%;0,0%
+DE;SMS Billing;1,99 EUR; 1,12 EUR ; 0,89 EUR ; 0,82 EUR ; 0,83 EUR ; 0,84 EUR ; 0,91 EUR ; 0,21 EUR ;19%;2,2%
+DE;SMS Billing;2,99 EUR; 1,65 EUR ; 1,33 EUR ; 1,24 EUR ; - ; 1,26 EUR ; 1,35 EUR ; 0,30 EUR ;18%;1,5%
+DE;SMS Billing;3,99 EUR; 2,29 EUR ; 1,82 EUR ; 1,68 EUR ; 1,45 EUR ; 1,57 EUR ; 1,84 EUR ; 0,45 EUR ;20%;1,1%
+DE;SMS Billing;4,99 EUR; 2,90 EUR ; 2,31 EUR ; 2,14 EUR ; 2,20 EUR ; 2,17 EUR ; 2,33 EUR ; 0,57 EUR ;20%;0,9%
+DK;SMS Billing;10,00 DKK; 0,71 EUR ; 0,52 EUR ; - ; 0,45 EUR ; - ; 0,54 EUR ; 0,17 EUR ;24%;3,8%
+DK;SMS Billing;100,00 DKK; 7,06 EUR ; 5,46 EUR ; - ; 5,10 EUR ; - ; 5,48 EUR ; 1,58 EUR ;22%;0,4%
+DK;SMS Billing;15,00 DKK; 1,10 EUR ; 0,86 EUR ; 0,83 EUR ; - ; - ; 0,88 EUR ; 0,22 EUR ;20%;2,3%
+DK;SMS Billing;150,00 DKK; 10,58 EUR ; 8,19 EUR ; - ; 7,50 EUR ; - ; 8,21 EUR ; 2,37 EUR ;22%;0,2%
+DK;SMS Billing;20,00 DKK; 1,41 EUR ; 1,08 EUR ; - ; 0,86 EUR ; 0,87 EUR ; 1,10 EUR ; 0,31 EUR ;22%;1,9%
+DK;SMS Billing;3,00 DKK; 0,21 EUR ; 0,14 EUR ; - ; - ; - ; 0,16 EUR ; 0,05 EUR ;24%;14,3%
+DK;SMS Billing;30,00 DKK; 2,11 EUR ; 1,21 EUR ; 1,66 EUR ; 1,31 EUR ; - ; 1,68 EUR ; 0,43 EUR ;20%;1,2%
+DK;SMS Billing;5,00 DKK; 0,36 EUR ; 0,25 EUR ; - ; - ; - ; 0,27 EUR ; 0,09 EUR ;25%;8,0%
+DK;SMS Billing;50,00 DKK; 3,52 EUR ; 2,83 EUR ; 2,77 EUR ; 2,00 EUR ; - ; 2,85 EUR ; 0,67 EUR ;19%;0,7%
+DK;SMS Billing;75,00 DKK; 5,29 EUR ; 4,10 EUR ; - ; - ; - ; 4,12 EUR ; 1,17 EUR ;22%;0,5%
+DT;Pay by Call;1,80 EUR; 1,26 EUR ; 0,85 EUR ; 0,85 EUR ; - ; 1,04 EUR ; 1,06 EUR ; 0,20 EUR ;16%;1,9%
+DT;SMS Billing;1,50 EUR; 0,61 EUR ; 0,55 EUR ; 0,50 EUR ; - ;; 0,57 EUR ; 0,04 EUR ;7%;3,6%
+DT;SMS Billing;3,00 EUR; 1,23 EUR ; 1,10 EUR ; 1,00 EUR ; - ;; 1,12 EUR ; 0,11 EUR ;9%;1,8%
+EC;SMS Billing;0,56 USD; 0,07 EUR ; 0,05 EUR ; - ; - ;; 0,05 EUR ; 0,02 EUR ;29%;0,0%
+EE;SMS Billing;0,96 EUR; 0,37 EUR ; 0,28 EUR ;; 0,25 EUR ;; 0,30 EUR ; 0,07 EUR ;19%;7,1%
+EE;SMS Billing;1,60 EUR; 0,63 EUR ; 0,47 EUR ; 0,48 EUR ; 0,54 EUR ;; 0,56 EUR ; 0,07 EUR ;11%;3,7%
+EE;SMS Billing;3,20 EUR; 1,28 EUR ; 0,94 EUR ; 0,95 EUR ; 0,99 EUR ;; 1,01 EUR ; 0,27 EUR ;21%;2,0%
+ES;Pay by Call;1,82 EUR; 1,58 EUR ; 0,55 EUR ; 1,08 EUR ; - ; - ; 1,10 EUR ; 0,48 EUR ;30%;1,9%
+ES;SMS Billing;2,42 EUR; 1,15 EUR ; 0,95 EUR ; 0,98 EUR ; - ; - ; 1,00 EUR ; 0,15 EUR ;13%;2,0%
+ES;SMS Billing;3,03 EUR; 1,44 EUR ; 1,00 EUR ; - ; 1,00 EUR ; - ; 1,02 EUR ; 0,42 EUR ;29%;2,0%
+ES;SMS Billing;3,63 EUR; 1,70 EUR ; 1,49 EUR ; 1,47 EUR ; 1,16 EUR ; - ; 1,51 EUR ; 0,19 EUR ;11%;1,3%
+ES;SMS Billing;5,20 EUR; 2,45 EUR ; 2,00 EUR ; - ; 1,61 EUR ; - ; 2,02 EUR ; 0,43 EUR ;18%;1,0%
+ES;SMS Billing;7,26 EUR; 3,47 EUR ; 2,80 EUR ; 2,97 EUR ; 2,35 EUR ; - ; 2,99 EUR ; 0,48 EUR ;14%;0,7%
+FI;SMS Billing;1,00 EUR; 0,34 EUR ; 0,17 EUR ; 0,37 EUR ; - ;; 0,39 EUR ;-0,05 EUR ;-13%;5,5%
+FI;SMS Billing;2,00 EUR; 0,85 EUR ; 0,42 EUR ; 0,84 EUR ; 0,82 EUR ;; 0,86 EUR ;-0,01 EUR ;-1%;2,4%
+FI;SMS Billing;2,50 EUR; 1,06 EUR ; 0,53 EUR ; 1,07 EUR ; 1,11 EUR ;; 1,13 EUR ;-0,07 EUR ;-7%;1,8%
+FR;Pay by Call;0,99 EUR; 0,00 EUR ; 0,43 EUR ;          ;          ;      ; 0,50 EUR ; 0,00 EUR ;0%;16,3%
+FR;Pay by Call;1,00 EUR; 0,00 EUR ; 0,44 EUR ; 0,44 EUR ;          ;      ; 0,51 EUR ; 0,00 EUR ;0%;15,9%
+FR;Pay by Call;1,50 EUR; 0,00 EUR ; 0,67 EUR ; 0,67 EUR ;          ;      ; 0,75 EUR ; 0,00 EUR ;0%;11,9%
+FR;Pay by Call;1,99 EUR; 0,00 EUR ; 0,89 EUR ; 0,89 EUR ;          ;      ; 0,99 EUR ; 0,00 EUR ;0%;11,2%
+FR;Pay by Call;2,00 EUR; 0,00 EUR ; 0,90 EUR ; 0,90 EUR ; 1,02 EUR ; 1,00 ; 1,14 EUR ; 0,00 EUR ;0%;14,0%
+FR;Pay by Call;2,50 EUR; 0,00 EUR ; 1,13 EUR ; 1,13 EUR ; 1,21 EUR ;      ; 1,25 EUR ; 0,00 EUR ;0%;3,3%
+FR;Pay by Call;2,99 EUR; 0,00 EUR ; 1,34 EUR ; 1,34 EUR ;          ;      ; 1,50 EUR ; 0,00 EUR ;0%;11,9%
+FR;Pay by Call;3,00 EUR; 0,00 EUR ; 1,35 EUR ; 1,35 EUR ;          ; 1,50 ; 1,51 EUR ; 0,00 EUR ;0%;0,7%
+FR;Direct Carrier Billing Mobile; 0,99 EUR ; 0,60 EUR ; 0,44 EUR ; 0,41 EUR ; 0,47 EUR ; 0,49 EUR ; 0,51 EUR ; 0,09 EUR ;16%;4,1%
+FR;Direct Carrier Billing Mobile; 1,50 EUR ; 0,86 EUR ; 0,66 EUR ; 0,63 EUR ; 0,73 EUR ; 0,74 EUR ; 0,76 EUR ; 0,10 EUR ;12%;2,7%
+FR;Direct Carrier Billing Mobile; 1,99 EUR ; 1,15 EUR ; 0,88 EUR ; 0,83 EUR ; 0,95 EUR ; 0,98 EUR ; 1,00 EUR ; 0,15 EUR ;13%;2,0%
+FR;Direct Carrier Billing Mobile; 10,00 EUR ; 5,79 EUR ; 0,88 EUR ; 4,76 EUR ; - ; 4,92 EUR ; 4,94 EUR ; 0,85 EUR ;15%;0,4%
+FR;Direct Carrier Billing Mobile; 2,00 EUR ; 1,16 EUR ; 0,88 EUR ; 0,83 EUR ; 0,96 EUR ; 0,98 EUR ; 1,00 EUR ; 0,16 EUR ;14%;2,0%
+FR;Direct Carrier Billing Mobile; 2,50 EUR ; 1,45 EUR ; 1,10 EUR ; 1,04 EUR ; - ; 1,23 EUR ; 1,25 EUR ; 0,20 EUR ;14%;1,6%
+FR;Direct Carrier Billing Mobile; 3,00 EUR ; 1,74 EUR ; 1,30 EUR ; 1,30 EUR ; 1,45 EUR ; 1,48 EUR ; 1,50 EUR ; 0,25 EUR ;14%;1,4%
+FR;Direct Carrier Billing Mobile; 4,00 EUR ; 2,31 EUR ; 1,74 EUR ; 1,67 EUR ; 1,95 EUR ; 1,97 EUR ; 1,99 EUR ; 0,32 EUR ;14%;1,0%
+FR;Direct Carrier Billing Mobile; 5,00 EUR ; 2,89 EUR ; 2,17 EUR ; 2,30 EUR ; - ; 2,46 EUR ; 2,48 EUR ; 0,41 EUR ;14%;0,8%
+FR;Direct Carrier Billing Mobile; 6,00 EUR ; 3,47 EUR ; 3,04 EUR ; 2,51 EUR ; - ; 2,95 EUR ; 3,06 EUR ; 0,41 EUR ;12%;0,7%
+FR;Direct Carrier Billing Mobile; 7,00 EUR ; 4,05 EUR ; 3,48 EUR ; 2,93 EUR ; 3,25 EUR ; 3,44 EUR ; 3,50 EUR ; 0,55 EUR ;14%;0,6%
+FR;Direct Carrier Billing Mobile; 8,00 EUR ; 4,63 EUR ; 3,48 EUR ; 3,80 EUR ; - ; 3,93 EUR ; 3,95 EUR ; 0,68 EUR ;15%;0,5%
+FR;Direct Carrier Billing; 0,55 EUR ; 0,35 EUR ; 0,23 EUR ; - ; - ; - ; 0,25 EUR ; 0,10 EUR ;29%;8,7%
+FR;Direct Carrier Billing; 1,00 EUR ; 0,63 EUR ; 0,50 EUR ; - ; - ; 0,54 EUR ; 0,56 EUR ; 0,07 EUR ;11%;3,7%
+FR;Direct Carrier Billing; 1,50 EUR ; 0,95 EUR ; 0,75 EUR ; 0,71 EUR ; 0,75 EUR ; 0,81 EUR ; 0,83 EUR ; 0,12 EUR ;12%;2,5%
+FR;Direct Carrier Billing; 1,80 EUR ; 1,14 EUR ; 0,95 EUR ; - ; - ; 0,98 EUR ; 1,00 EUR ; 0,15 EUR ;13%;2,1%
+FR;Direct Carrier Billing; 10,00 EUR ; 6,75 EUR ; 4,83 EUR ; 5,02 EUR ; 5,18 EUR ; 5,42 EUR ; 5,44 EUR ; 1,31 EUR ;19%;0,4%
+FR;Direct Carrier Billing; 12,00 EUR ; 8,10 EUR ; 5,20 EUR ; - ; 1,25 EUR ; 6,50 EUR ; 6,52 EUR ; 1,58 EUR ;20%;0,3%
+FR;Direct Carrier Billing; 15,00 EUR ; 10,13 EUR ; 8,05 EUR ; 7,53 EUR ; 8,03 EUR ; 8,13 EUR ; 8,15 EUR ; 1,99 EUR ;20%;0,2%
+FR;Direct Carrier Billing; 2,00 EUR ; 1,27 EUR ; 0,97 EUR ; 0,95 EUR ; 1,00 EUR ; 1,08 EUR ; 1,10 EUR ; 0,17 EUR ;13%;1,8%
+FR;Direct Carrier Billing; 2,50 EUR ; 1,58 EUR ; 1,20 EUR ; - ; 1,25 EUR ; 1,35 EUR ; 1,37 EUR ; 0,21 EUR ;13%;1,5%
+FR;Direct Carrier Billing; 3,00 EUR ; 1,90 EUR ; 1,53 EUR ; 1,50 EUR ; 1,53 EUR ; 1,63 EUR ; 1,65 EUR ; 0,26 EUR ;13%;1,2%
+FR;Direct Carrier Billing; 4,00 EUR ; 2,53 EUR ; 2,00 EUR ; - ; 2,04 EUR ; 2,17 EUR ; 2,19 EUR ; 0,34 EUR ;14%;0,9%
+FR;Direct Carrier Billing; 5,00 EUR ; 3,28 EUR ; 2,53 EUR ; 2,51 EUR ; 2,59 EUR ; 2,71 EUR ; 2,73 EUR ; 0,55 EUR ;17%;0,7%
+FR;Direct Carrier Billing; 6,00 EUR ; 3,93 EUR ; 3,07 EUR ; - ; 3,11 EUR ; 3,25 EUR ; 3,27 EUR ; 0,66 EUR ;17%;0,6%
+FR;Direct Carrier Billing; 7,00 EUR ; 4,59 EUR ; 3,47 EUR ; - ; 3,63 EUR ; 3,79 EUR ; 3,81 EUR ; 0,78 EUR ;17%;0,5%
+FR;Direct Carrier Billing; 8,00 EUR ; 5,24 EUR ; 3,93 EUR ; - ; - ; 4,33 EUR ; 4,35 EUR ; 0,89 EUR ;17%;0,5%
+FR;Direct Carrier Billing; 9,00 EUR ; 5,90 EUR ; 4,57 EUR ; - ; 4,67 EUR ; 4,88 EUR ; 4,90 EUR ; 1,01 EUR ;17%;0,4%
+FR;SMS Billing;0,50 EUR; 0,27 EUR ; 0,15 EUR ; - ; - ; - ; 0,17 EUR ; 0,10 EUR ;37%;13,3%
+FR;SMS Billing;1,00 EUR; 0,51 EUR ; 0,40 EUR ; - ; - ; - ; 0,42 EUR ; 0,09 EUR ;18%;5,0%
+FR;SMS Billing;1,50 EUR; 0,76 EUR ; 0,62 EUR ; 0,52 EUR ; 0,65 EUR ; - ; 0,67 EUR ; 0,09 EUR ;12%;3,1%
+FR;SMS Billing;2,00 EUR; 1,02 EUR ; 0,80 EUR ; 0,80 EUR ; 0,90 EUR ; - ; 0,92 EUR ; 0,10 EUR ;10%;2,2%
+FR;SMS Billing;3,00 EUR; 1,68 EUR ; 1,20 EUR ; 1,20 EUR ; 1,30 EUR ; 1,22 EUR ; 1,32 EUR ; 0,36 EUR ;21%;1,5%
+FR;SMS Billing;4,50 EUR; 2,41 EUR ; 2,00 EUR ; 1,80 EUR ; 2,00 EUR ; 1,82 EUR ; 2,02 EUR ; 0,39 EUR ;16%;1,0%
+FR;SMS Billing;4,50 EUR; 2,41 EUR ; 2,00 EUR ; 1,80 EUR ; 2,00 EUR ; 1,82 EUR ; 2,02 EUR ; 0,39 EUR ;16%;1,0%
+GR;SMS Billing;0,62 EUR; 0,22 EUR ; 0,14 EUR ; - ; - ;; 0,16 EUR ; 0,06 EUR ;27%;14,3%
+GR;SMS Billing;1,48 EUR; 1,14 EUR ; 0,34 EUR ; - ; - ;; 0,36 EUR ; 0,78 EUR ;68%;5,9%
+GR;SMS Billing;3,62 EUR; 1,37 EUR ; 0,84 EUR ; 0,89 EUR ; 0,90 EUR ;; 0,92 EUR ; 0,45 EUR ;33%;2,2%
+HU;SMS Billing;1016,00 HUF; 1,03 EUR ; 0,74 EUR ; 0,90 EUR ; 0,25 EUR ;; 0,92 EUR ; 0,11 EUR ;11%;2,2%
+HU;SMS Billing;2032,00 HUF; 2,07 EUR ; 1,48 EUR ; 1,81 EUR ; - ;; 1,83 EUR ; 0,24 EUR ;12%;1,1%
+HU;SMS Billing;305,00 HUF; 0,29 EUR ; 0,21 EUR ; 0,22 EUR ; - ;; 0,24 EUR ; 0,05 EUR ;17%;9,1%
+HU;SMS Billing;508,00 HUF; 0,51 EUR ; 0,37 EUR ; 0,42 EUR ; - ;; 0,44 EUR ; 0,07 EUR ;14%;4,8%
+LU;Pay by Call;1,73 EUR; 1,16 EUR ; 0,70 EUR ; 0,90 EUR ; 0,77 EUR ; 1,02 EUR ; 1,04 EUR ; 0,12 EUR ;10%;2,0%
+LU;Pay by Call;3,35 EUR; 2,21 EUR ; 0,97 EUR ; - ; - ; 1,02 EUR ; 1,04 EUR ; 1,17 EUR ;53%;2,0%
+LU;SMS Billing;1,50 EUR; 0,61 EUR ; 0,55 EUR ; 0,53 EUR ; 0,44 EUR ;; 0,57 EUR ; 0,04 EUR ;7%;3,6%
+LU;SMS Billing;3,00 EUR; 1,29 EUR ; 1,07 EUR ; 1,02 EUR ; 0,88 EUR ;; 1,09 EUR ; 0,20 EUR ;16%;1,9%
+LV;SMS Billing;0,51; 0,19 EUR ; 0,13 EUR ;; - ;; 0,15 EUR ; 0,04 EUR ;21%;15,4%
+LV;SMS Billing;1,10 EUR; 0,41 EUR ; 0,29 EUR ;; - ;; 0,31 EUR ; 0,10 EUR ;24%;6,9%
+LV;SMS Billing;1,39 EUR; 0,52 EUR ; 0,37 EUR ;; - ;; 0,39 EUR ; 0,13 EUR ;25%;5,4%
+MA;SMS Billing;18,00 DH; 0,76 EUR ; 0,35 EUR ;; - ;; 0,37 EUR ; 0,39 EUR ;51%;5,7%
+MA;SMS Billing;24,00 DH; 0,98 EUR ; 0,60 EUR ; 0,21 EUR ; 0,37 EUR ;; 0,62 EUR ; 0,36 EUR ;37%;3,3%
+MX;SMS Billing;15,13 MXN; 0,23 EUR ; 0,21 EUR ; 0,18 EUR ; 0,19 EUR ;; 0,21 EUR ; 0,02 EUR ;9%;0,0%
+MX;SMS Billing;30,26 MXN; 0,50 EUR ; 0,42 EUR ; 0,34 EUR ; 0,36 EUR ;; 0,44 EUR ; 0,06 EUR ;12%;4,8%
+MX;SMS Billing;50,44 MXN; 0,83 EUR ; 0,72 EUR ; - ; - ;; 0,74 EUR ; 0,09 EUR ;11%;2,8%
+MY;SMS Billing;10 MYR; 0,96 EUR ; 0,97 EUR ; - ; - ;; 0,99 EUR ;-0,03 EUR ;-3%;2,1%
+MY;SMS Billing;8 MYR; 0,72 EUR ; 0,77 EUR ; - ; 0,77 EUR ;; 0,79 EUR ;-0,07 EUR ;-10%;2,6%
+NL;SMS Billing;0,80 EUR; 0,38 EUR ; 0,28 EUR ; 0,38 EUR ; - ; - ; 0,40 EUR ;-0,02 EUR ;-5%;5,3%
+NL;SMS Billing;1,10 EUR; 0,55 EUR ; 0,41 EUR ; - ; - ; - ; 0,43 EUR ; 0,12 EUR ;22%;4,9%
+NL;SMS Billing;1,50 EUR; 0,78 EUR ; 0,58 EUR ; 0,62 EUR ; 0,61 EUR ; 0,62 EUR ; 0,64 EUR ; 0,14 EUR ;18%;3,2%
+NL;SMS Billing;2,00 EUR; 1,02 EUR ; 0,81 EUR ; - ; - ; - ; 0,83 EUR ; 0,19 EUR ;19%;2,5%
+NL;SMS Billing;2,50 EUR; 1,30 EUR ; 1,03 EUR ; - ; - ; - ; 1,05 EUR ; 0,25 EUR ;19%;1,9%
+NL;SMS Billing;3,00 EUR; 1,57 EUR ; 1,34 EUR ; 1,31 EUR ; 1,31 EUR ; - ; 1,36 EUR ; 0,21 EUR ;13%;1,5%
+NL;SMS Billing;4,00 EUR; 2,19 EUR ; 1,72 EUR ; - ; - ; - ; 1,74 EUR ; 0,45 EUR ;21%;1,2%
+NL;SMS Billing;5,00 EUR; 2,79 EUR ; 2,23 EUR ; - ; - ; - ; 2,25 EUR ; 0,54 EUR ;19%;0,9%
+NO;SMS Billing;10,00 NOK; 0,58 EUR ; 0,46 EUR ; - ; - ; - ; 0,48 EUR ; 0,10 EUR ;17%;4,3%
+NO;SMS Billing;100,00 NOK; 6,71 EUR ; 5,36 EUR ; 4,57 EUR ; 5,00 EUR ; - ; 5,38 EUR ; 1,33 EUR ;20%;0,4%
+NO;SMS Billing;15,00 NOK; 0,91 EUR ; 0,72 EUR ; 0,60 EUR ; 0,70 EUR ; - ; 0,74 EUR ; 0,17 EUR ;19%;2,8%
+NO;SMS Billing;20,00 NOK; 1,21 EUR ; 0,96 EUR ; - ; 0,81 EUR ; 0,85 EUR ; 0,98 EUR ; 0,23 EUR ;19%;2,1%
+NO;SMS Billing;200,00 NOK; 13,51 EUR ; 10,72 EUR ; 8,92 EUR ; - ; - ; 10,74 EUR ; 2,77 EUR ;21%;0,2%
+NO;SMS Billing;3,00 NOK; 0,15 EUR ; 0,11 EUR ; - ; - ; - ; 0,13 EUR ; 0,02 EUR ;13%;18,2%
+NO;SMS Billing;30,00 NOK; 1,79 EUR ;; 1,30 EUR ; 1,31 EUR ; - ; 1,33 EUR ; 0,46 EUR ;26%;1,5%
+NO;SMS Billing;5,00 NOK; 0,24 EUR ; 0,21 EUR ; - ; - ; - ; 0,21 EUR ; 0,03 EUR ;13%;0,0%
+NO;SMS Billing;50,00 NOK; 3,05 EUR ; 2,42 EUR ; 2,05 EUR ; 2,35 EUR ; - ; 2,44 EUR ; 0,61 EUR ;20%;0,8%
+PA;SMS Billing;2 USD; 0,21 EUR ; 0,17 EUR ; - ; - ; - ; 0,19 EUR ; 0,02 EUR ;10%;11,8%
+PL;SMS Billing;11,07 PLN; 0,85 EUR ; 0,85 EUR ; 0,94 EUR ; - ;; 0,96 EUR ;-0,11 EUR ;-13%;2,1%
+PL;SMS Billing;7,38 PLN; 0,56 EUR ; 0,50 EUR ; - ; - ;; 0,52 EUR ; 0,04 EUR ;7%;4,0%
+PT;SMS Billing;1,00 EUR; 0,22 EUR ; 0,15 EUR ; - ; - ; - ; 0,17 EUR ; 0,05 EUR ;23%;13,3%
+PT;SMS Billing;2,00 EUR; 0,64 EUR ; 0,58 EUR ; 0,60 EUR ; 0,61 EUR ; 0,62 EUR ; 0,63 EUR ; 0,01 EUR ;2%;1,6%
+PT;SMS Billing;4,00 EUR; 1,49 EUR ; 1,13 EUR ; 1,18 EUR ; 1,25 EUR ; - ; 1,27 EUR ; 0,22 EUR ;15%;1,6%
+PY;SMS Billing;4840 PYG; 0,09 EUR ; 0,08 EUR ; 0,11 EUR ; - ;; 0,13 EUR ;-0,04 EUR ;-42%;18,5%
+RO;SMS Billing;1,00 EUR; 0,52 EUR ; 0,35 EUR ; 0,28 EUR ; 0,29 EUR ;; 0,37 EUR ; 0,15 EUR ;29%;5,7%
+RO;SMS Billing;10,00 EUR; 8,93 EUR ; 7,00 EUR ; 4,78 EUR ; 0,59 EUR ;; 7,02 EUR ; 1,91 EUR ;21%;0,3%
+RO;SMS Billing;2,00 EUR; 1,05 EUR ; 0,75 EUR ; 0,50 EUR ; - ;; 0,77 EUR ; 0,28 EUR ;27%;2,7%
+RO;SMS Billing;3,00 EUR; 1,57 EUR ; 1,15 EUR ; 1,04 EUR ; - ;; 1,17 EUR ; 0,40 EUR ;25%;1,7%
+RO;SMS Billing;5,00 EUR; 4,42 EUR ; 3,30 EUR ; 1,97 EUR ; - ;; 3,32 EUR ; 1,10 EUR ;25%;0,6%
+RO;SMS Billing;6,00 EUR; 5,32 EUR ; 4,00 EUR ; - ; - ;; 4,02 EUR ; 1,30 EUR ;24%;0,5%
+RO;SMS Billing;7,00 EUR; 6,27 EUR ; 4,80 EUR ; - ; - ;; 4,82 EUR ; 1,45 EUR ;23%;0,4%
+RO;SMS Billing;8,00 EUR; 7,22 EUR ; 5,50 EUR ; 3,62 EUR ; - ;; 5,52 EUR ; 1,70 EUR ;24%;0,4%
+RO;SMS Billing;9,00 EUR; 8,17 EUR ; 6,30 EUR ; - ; - ;; 6,32 EUR ; 1,85 EUR ;23%;0,3%
+RU;SMS Billing;140,00 RUB; 0,78 EUR ; 0,88 EUR ; 0,45 EUR ; - ;; 0,90 EUR ;-0,12 EUR ;-15%;2,3%
+RU;SMS Billing;170,00 RUB; 0,95 EUR ; 0,81 EUR ; - ; - ;; 0,83 EUR ; 0,12 EUR ;13%;2,5%
+RU;SMS Billing;200,00 RUB; 1,59 EUR ; 1,27 EUR ; - ; - ;; 1,29 EUR ; 0,30 EUR ;19%;1,6%
+RU;SMS Billing;25,00 RUB; 0,21 EUR ; 0,17 EUR ; - ; - ;; 0,19 EUR ; 0,02 EUR ;10%;11,8%
+RU;SMS Billing;300,00 RUB; 2,19 EUR ; 0,81 EUR ; - ; - ;; 0,83 EUR ; 1,36 EUR ;62%;2,5%
+RU;SMS Billing;35,00 RUB; 0,29 EUR ; 0,23 EUR ; - ; - ;; 0,25 EUR ; 0,04 EUR ;14%;8,7%
+RU;SMS Billing;50,00 RUB; 0,41 EUR ; 0,33 EUR ; - ; - ;; 0,35 EUR ; 0,06 EUR ;15%;6,1%
+RU;SMS Billing;70,00 RUB; 0,61 EUR ; 0,49 EUR ; 0,31 EUR ; - ;; 0,51 EUR ; 0,10 EUR ;16%;4,1%
+SE;SMS Billing;10,00 Kronor; 0,51 EUR ; 0,42 EUR ; 0,39 EUR ; 0,43 EUR ; - ; 0,45 EUR ; 0,06 EUR ;12%;4,7%
+SE;SMS Billing;100,00 Kronor; 7,04 EUR ; 4,86 EUR ; 4,43 EUR ; 3,25 EUR ; - ; 4,88 EUR ; 2,16 EUR ;31%;0,4%
+SE;SMS Billing;15,00 Kronor; 0,77 EUR ; 0,67 EUR ; - ; 0,60 EUR ; - ; 0,69 EUR ; 0,08 EUR ;10%;3,0%
+SE;SMS Billing;180,00 Kronor; 12,53 EUR ; 8,57 EUR ; - ; - ; - ; 8,59 EUR ; 3,94 EUR ;31%;0,2%
+SE;SMS Billing;20,00 Kronor; 1,09 EUR ; 0,94 EUR ; 0,83 EUR ; - ; 0,78 EUR ; 0,96 EUR ; 0,13 EUR ;12%;2,1%
+SE;SMS Billing;200,00 Kronor; 14,04 EUR ; 9,88 EUR ; 8,97 EUR ; - ; - ; 9,90 EUR ; 4,14 EUR ;29%;0,2%
+SE;SMS Billing;30,00 Kronor; 1,67 EUR ; 1,41 EUR ; 1,27 EUR ; 1,16 EUR ; - ; 1,43 EUR ; 0,24 EUR ;14%;1,4%
+SE;SMS Billing;50,00 Kronor; 2,93 EUR ; 2,35 EUR ; 2,17 EUR ; 1,59 EUR ; - ; 2,37 EUR ; 0,56 EUR ;19%;0,9%
+SE;SMS Billing;60,00 Kronor; 3,39 EUR ; 2,82 EUR ; - ; - ; - ; 2,84 EUR ; 0,55 EUR ;16%;0,7%
+SE;SMS Billing;90,00 Kronor; 5,97 EUR ; 4,28 EUR ; - ; - ; - ; 4,30 EUR ; 1,67 EUR ;28%;0,5%
+SG;SMS Billing;10,70 SGD; 3,03 EUR ; 2,43 EUR ; 2,48 EUR ; - ;; 2,50 EUR ; 0,53 EUR ;17%;0,8%
+SG;SMS Billing;3,21 SGD; 0,88 EUR ; 0,71 EUR ; 0,68 EUR ; - ;; 0,73 EUR ; 0,15 EUR ;17%;2,8%
+SG;SMS Billing;6,42 SGD; 1,81 EUR ; 1,46 EUR ; - ; - ;; 1,48 EUR ; 0,33 EUR ;18%;1,4%
+SK;SMS Billing;0,80 EUR; 0,25 EUR ; 0,18 EUR ; - ; - ;; 0,20 EUR ; 0,05 EUR ;20%;11,1%
+SK;SMS Billing;1,20 EUR; 0,37 EUR ; 0,28 EUR ; 0,35 EUR ; - ;; 0,37 EUR ; -   EUR ;0%;5,7%
+SK;SMS Billing;1,58 EUR; 0,57 EUR ; 0,38 EUR ; 0,41 EUR ; 0,29 EUR ;; 0,43 EUR ; 0,14 EUR ;25%;4,9%
+TH;SMS Billing;10,7 THB; 0,09 EUR ; 0,07 EUR ;; - ;; 0,09 EUR ; -   EUR ;0%;28,6%
+TH;SMS Billing;105,93 THB; 0,81 EUR ; 0,65 EUR ;; 0,54 EUR ;; 0,67 EUR ; 0,14 EUR ;17%;3,1%
+TH;SMS Billing;159,43 THB; 1,22 EUR ; 0,97 EUR ;; 0,70 EUR ;; 0,99 EUR ; 0,23 EUR ;19%;2,1%
+TH;SMS Billing;21,4 THB; 0,18 EUR ; 0,13 EUR ;; 0,13 EUR ;; 0,15 EUR ; 0,03 EUR ;17%;15,4%
+TH;SMS Billing;32,1 THB; 0,28 EUR ; 0,20 EUR ; 0,21 EUR ; 0,20 EUR ;; 0,23 EUR ; 0,05 EUR ;18%;9,5%
+TH;SMS Billing;52,43 THB; 0,47 EUR ; 0,32 EUR ; 0,36 EUR ; 0,34 EUR ;; 0,38 EUR ; 0,09 EUR ;19%;5,6%
+TH;SMS Billing;84,53 THB; 0,71 EUR ; 0,52 EUR ;; - ;; 0,54 EUR ; 0,17 EUR ;24%;3,8%
+TR;SMS Billing;1,00 TRY; 0,13 EUR ; 0,14 EUR ;; - ;; 0,14 EUR ;-0,01 EUR ;-8%;0,0%
+TR;SMS Billing;10,00 TRY; 1,23 EUR ; 1,36 EUR ;; - ;; 1,37 EUR ;-0,14 EUR ;-11%;0,7%
+TR;SMS Billing;12,00 TRY; 2,48 EUR ; 2,20 EUR ;; - ;; 2,22 EUR ; 0,26 EUR ;10%;0,9%
+TR;SMS Billing;15,00 TRY; 2,41 EUR ; 2,04 EUR ;; - ;; 2,06 EUR ; 0,35 EUR ;15%;1,0%
+TR;SMS Billing;20,00 TRY; 3,22 EUR ; 2,73 EUR ;; - ;; 2,75 EUR ; 0,47 EUR ;15%;0,7%
+TR;SMS Billing;5,00 TRY; 0,81 EUR ; 0,68 EUR ;; - ;; 0,70 EUR ; 0,11 EUR ;14%;2,9%
+TR;SMS Billing;6,00 TRY; 1,25 EUR ; 0,14 EUR ; 0,53 EUR ; - ;; 0,55 EUR ; 0,70 EUR ;56%;3,8%
+TW;SMS Billing;10 TWD; 0,10 EUR ; 0,08 EUR ;; - ;; 0,08 EUR ; 0,02 EUR ;20%;0,0%
+TW;SMS Billing;20 TWD; 0,23 EUR ; 0,18 EUR ; 0,14 EUR ; - ;; 0,20 EUR ; 0,03 EUR ;13%;11,1%
+TW;SMS Billing;30 TWD; 0,35 EUR ; 0,28 EUR ; 0,21 EUR ; - ;; 0,30 EUR ; 0,05 EUR ;14%;7,1%
+TW;SMS Billing;5 TWD; 0,04 EUR ; 0,03 EUR ; - ; - ;; 0,03 EUR ; 0,01 EUR ;25%;0,0%
+TW;SMS Billing;50 TWD; 0,59 EUR ; 0,47 EUR ; 0,36 EUR ; - ;; 0,49 EUR ; 0,10 EUR ;17%;4,3%
+TW;SMS Billing;90 TWD; 1,08 EUR ; 0,87 EUR ; - ; - ;; 0,89 EUR ; 0,19 EUR ;18%;2,3%
+US;Pay by Call;5,00 USD; 2,15 EUR ; 1,44 EUR ;; - ; 1,87 EUR ; 1,89 EUR ; 0,26 EUR ;12%;1,1%
+UY;SMS Billing;27 UYU; 0,13 EUR ; 0,11 EUR ; 0,18 EUR ; - ;; 0,20 EUR ;-0,07 EUR ;-54%;11,1%
+VE;SMS Billing;19,05 VEF; 0,01 EUR ; 0,01 EUR ; 0,01 EUR ; - ;; 0,01 EUR ; -   EUR ;0%;0,0%
+VN;SMS Billing;10000 VND; 0,11 EUR ; 0,11 EUR ; 0,12 EUR ; - ;; 0,12 EUR ;-0,01 EUR ;-9%;0,0%
+VN;SMS Billing;15000 VND; 0,18 EUR ; 0,16 EUR ; 0,18 EUR ; 0,15 EUR ;; 0,18 EUR ; -   EUR ;0%;#REF!
+VN;SMS Billing;5000 VND; 0,06 EUR ; 0,05 EUR ; - ; - ;; 0,05 EUR ; 0,01 EUR ;17%;-66,7%
