@@ -1,0 +1,434 @@
+[
+  {
+    "#": "FR",
+    "Country": "France",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "x",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "FR",
+    "Country": "France Island",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "DE",
+    "Country": "Germany",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "AT",
+    "Country": "Austria",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "BE",
+    "Country": "Belgium",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "BA",
+    "Country": "Bosnia-Herzegovina",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "BG",
+    "Country": "Bulgaria",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "DK",
+    "Country": "Denmark",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "ES",
+    "Country": "Spain",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "EE",
+    "Country": "Estonia",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "FI",
+    "Country": "Finland",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "GR",
+    "Country": "Greece",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "HU",
+    "Country": "Hungary",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "IT",
+    "Country": "Italy",
+    "SMS Billing": "",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "x",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "LV",
+    "Country": "Latvia",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "LU",
+    "Country": "Luxembourg",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "NO",
+    "Country": "Norway",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "NL",
+    "Country": "Netherlands",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "PL",
+    "Country": "Poland",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "PT",
+    "Country": "Portugal",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "SK",
+    "Country": "Slovakia",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "CZ",
+    "Country": "Czech Republic",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "RO",
+    "Country": "Romania",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "RU",
+    "Country": "Russia",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "SE",
+    "Country": "Sweden",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "CH",
+    "Country": "Switzerland",
+    "SMS Billing": "x",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "TR",
+    "Country": "Turkey",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "MA",
+    "Country": "Morocco",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "CR",
+    "Country": "Costa Rica",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "PA",
+    "Country": "Panama",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "AR",
+    "Country": "Argentina",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "BR",
+    "Country": "Brasil",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "CL",
+    "Country": "Chile",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "CO",
+    "Country": "Colombia",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "EC",
+    "Country": "Ecuador",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "MX",
+    "Country": "Mexico",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "PY",
+    "Country": "Paraguay",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "UY",
+    "Country": "Uruguay",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "VE",
+    "Country": "Venezuela",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "MY",
+    "Country": "Malaysia",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "SG",
+    "Country": "Singapour",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "TW",
+    "Country": "Taiwan",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "TH",
+    "Country": "Thailand",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "VN",
+    "Country": "Vietnam",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "AU",
+    "Country": "Australia",
+    "SMS Billing": "x",
+    "IVR Billing": "",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "CA",
+    "Country": "Canada",
+    "SMS Billing": "",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "x",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "US",
+    "Country": "USA",
+    "SMS Billing": "",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  },
+  {
+    "#": "NZ",
+    "Country": "New-Zeland",
+    "SMS Billing": "",
+    "IVR Billing": "x",
+    "Direct Carrier billing": "",
+    "Credit Card": "x",
+    "Paysafecard": "x"
+  }
+]

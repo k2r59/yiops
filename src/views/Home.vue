@@ -522,6 +522,8 @@
   </div>
 </template>
 <script>
+const media = require('../data/revs.json');
+
 export default {
   name: "home",
   methods : {
