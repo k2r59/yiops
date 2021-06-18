@@ -22,6 +22,7 @@
     "vue-cookie-law": "^1.13.3",
     "vue-google-autocomplete": "^1.1.0",
     "vue-router": "^3.1.2",
+    "vue-scrollto": "^2.20.0",
     "vue-simple-drawer": "^1.0.6",
     "vue-sweetalert2": "^1.6.4",
     "vue-template-compiler": "^2.6.10"

@@ -19,11 +19,11 @@
           </button>
           <div class="collapse navbar-collapse navMenuCollapse">
             <ul class="nav">
-              <li><a href="#features">Fonctionnalit&eacute;s</a></li>
-              <li><a href="#technology">Notre page de paiement</a></li>
-              <li><a href="#benefits2">Avantages</a></li>
-              <li><a href="#technology">D&eacute;mos</a></li>
-              <li><a href="#tableau3">Nos Solutions</a></li>
+              <li><a v-scroll-to="'#features'">Fonctionnalit&eacute;s</a></li>
+              <li><a v-scroll-to="'#technology'">Notre page de paiement</a></li>
+              <li><a v-scroll-to="'#benefits2'">Avantages</a></li>
+              <li><a v-scroll-to="'#technology'">D&eacute;mos</a></li>
+              <li><a v-scroll-to="'#tableau3'">Nos Solutions</a></li>
 
               <li><a href="#subscribe" target="_blank">Inscription</a></li>
               <li>
@@ -64,7 +64,7 @@
                   href="https://app.yops.io"
                   ><i class="icon icon-user"></i><b>Connexion</b></a
                 >
-                <a class="btn btn-default btn-lg goto" href="#features"
+                <a class="btn btn-default btn-lg goto" v-scroll-to="'#features'"
                   >En savoir plus</a
                 >
               </div>
@@ -196,7 +196,7 @@
                 page de paiement ultra-optimis&eacute;e, simple et lisible,
                 accessible via un simple bouton. Faites donc un test !
               </p>
-              <a class="btn btn-default btn-lg" href="#ex1" rel="modal:open"
+              <a class="btn btn-default btn-lg" @click="openExample()" rel="modal:open"
                 >Payer avec Yops <i class="icon-right icon-user"></i>
               </a>
             </div>
@@ -434,13 +434,13 @@
               </ul>
             </div>
             <div class="col-md-5 col-md-pull-5">
-              &copy; 2016 Yops! -
-              <a href="mentions-legales.php" target="_blank"
+              &copy; 2021 Yops! -
+              <a href="/mentions" target="_blank"
                 >Mentions L&eacute;gales</a
               ><br />
             </div>
             <div class="col-md-2 col-md-pull-5 text-center">
-              <a class="goto" href="#intro"></a>
+              <a class="goto" v-scroll-to="'#intro'"></a>
             </div>
           </div>
         </div>
@@ -519,19 +519,30 @@
       style="-moz-border-radius: 10px; -webkit-border-radius: 10px;  border-radius: 10px; "
     ></div>
 
-     <div id="ex1" style="display:none;">
-    <!--  <iframe
-        src="https://app.yops.io/popup/?docId=557838c41f769b5e104eb0a9"
-        seamless
-        frameborder="0"
-        width="440px"
-        height="630px"
-      ></iframe> -->
-    </div> 
+
   </div>
 </template>
 <script>
 export default {
   name: "home",
+  methods : {
+    openExample() {
+
+      this.$swal({
+        confirmButtonText: "OK",
+        confirmButtonColor: "#C94330",
+        title: "Désolé, une erreur est survenue.",
+        html: '<iframe  src="https://app.yops.io/popup/?docId=557838c41f769b5e104eb0a9"  seamless   frameborder="0" width="440px"  height="630px" ></iframe>',
+      }).then(function () {
+       
+      });
+
+    }
+  }
 };
 </script>
+<style>
+a {
+  cursor:  pointer !important;
+}
+</style>

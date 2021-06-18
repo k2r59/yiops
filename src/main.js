@@ -5,8 +5,9 @@ import router from "./router";
 import VueSweetalert2 from "vue-sweetalert2";
 Vue.use(VueSweetalert2);
 
-import FormBuilder from "lucien-form-builder";
-Vue.use(FormBuilder);
+
+var VueScrollTo = require('vue-scrollto');
+Vue.use(VueScrollTo)
 
 import "./scss/main.scss";
 
