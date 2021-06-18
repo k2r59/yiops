@@ -531,8 +531,8 @@ export default {
       this.$swal({
         confirmButtonText: "OK",
         confirmButtonColor: "#C94330",
-        title: "Désolé, une erreur est survenue.",
-        html: '<iframe  src="https://app.yops.io/popup/?docId=557838c41f769b5e104eb0a9"  seamless   frameborder="0" width="440px"  height="630px" ></iframe>',
+
+        html: '<iframe  src="https://app.yops.io/popup/?docId=557838c41f769b5e104eb0a9"  seamless   frameborder="0" width="300px"  height="400px" ></iframe>',
       }).then(function () {
        
       });
@@ -544,5 +544,9 @@ export default {
 <style>
 a {
   cursor:  pointer !important;
+}
+
+.swal2-container {
+  zoom: 1.5;
 }
 </style>
