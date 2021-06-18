@@ -507,7 +507,9 @@
             ></div>
             <button
               type="submit"
-              id="contact_submit"
+  
+              @click="onSubmit"
+              :v-model="email"
               data-loading-text="&bull;&bull;&bull;"
               class="btn btn-lg btn-block btn-primary"
             >
@@ -527,26 +529,69 @@
   </div>
 </template>
 <script>
+import axios from 'axios';
 
 export default {
   name: "home",
   data() {
     return { 
+      email: undefined,
       revs : require('../data/revs.json')
      }
   },
   methods : {
+    checkEmail(email) {
+       var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    },
     openExample() {
-
       this.$swal({
         confirmButtonText: "OK",
         confirmButtonColor: "#C94330",
 
         html: '<iframe src="https://app.yops.io/popup/?docId=557838c41f769b5e104eb0a9"  seamless   frameborder="0" width="100%"  height="400px" ></iframe>',
-      }).then(function () {
-       
       });
+    },
+    async onSubmit () {
 
+     if(this.checkEmail(this.email)) {
+
+      this.$swal({
+          title: 'Envoi en cours',
+          html: 'Merci de bien vouloir patienter ...',
+          timerProgressBar: true,
+          onBeforeOpen: () => {
+            this.$swal.showLoading()
+          }
+        })
+      axios.post('/.netlify/functions/sendmail', 
+            {
+               email: this.email
+            }
+            ).then(response => {
+            console.log(response)
+              this.$swal({
+                type: 'success',
+                title: 'Merci',
+                text: 'Nous avons bien reçu votre demande de contact.',
+                })
+               this.$swal.close()
+            }).catch(e => {
+             
+                this.$swal({
+                type: 'error',
+                title: 'Oops...',
+                text: 'Une erreur est survenue !',
+                })
+            });
+
+     } else {
+              this.$swal({
+                type: 'error',
+                title: 'Oops...',
+                text: 'Entrer une adresse email valide !',
+                })
+     }
     }
   }
 };
