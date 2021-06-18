@@ -24,8 +24,7 @@
               <li><a v-scroll-to="'#benefits2'">Avantages</a></li>
               <li><a v-scroll-to="'#technology'">D&eacute;mos</a></li>
               <li><a v-scroll-to="'#tableau3'">Nos Solutions</a></li>
-
-              <li><a href="#subscribe" target="_blank">Inscription</a></li>
+              <li><a v-scroll-to="'#subscribe'" target="_blank">Inscription</a></li>
               <li>
                 <a href="https://app.yops.io" target="_blank" class="main-btn"
                   >Connexion <i class="icon-right icon-user"></i
@@ -532,7 +531,7 @@ export default {
         confirmButtonText: "OK",
         confirmButtonColor: "#C94330",
 
-        html: '<iframe  src="https://app.yops.io/popup/?docId=557838c41f769b5e104eb0a9"  seamless   frameborder="0" width="300px"  height="400px" ></iframe>',
+        html: '<iframe src="https://app.yops.io/popup/?docId=557838c41f769b5e104eb0a9"  seamless   frameborder="0" width="100%"  height="400px" ></iframe>',
       }).then(function () {
        
       });
@@ -548,5 +547,10 @@ a {
 
 .swal2-container {
   zoom: 1.5;
+}
+
+#subscribe_submit {
+  font-size: 26px !important;
+  padding: 15.5px !important;
 }
 </style>
