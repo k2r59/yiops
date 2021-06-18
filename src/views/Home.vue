@@ -542,7 +542,7 @@ export default {
   methods : {
 
     openForm() {
-      window.open('/')
+      window.open('https://nouti.typeform.com/to/uhm3EDRC')
      
     },
     checkEmail(email) {
