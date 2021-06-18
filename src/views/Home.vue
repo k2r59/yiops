@@ -290,7 +290,7 @@
       </section>
 
       <!-- TAB BLOCK -->
-      <section class="tab-block">
+      <!-- <section class="tab-block">
         <h2 class="hidden">Tab block</h2>
         <nav>
           <ul class="container">
@@ -352,10 +352,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- FACTS BLOCK -->
-      <section id="facts" class="facts-block bg-color3">
+      <!-- <section id="facts" class="facts-block bg-color3">
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
@@ -381,7 +381,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- SUBSCRIBE BLOCK -->
       <section id="subscribe" class="text-center dark-bg bg-color1">
@@ -392,7 +392,7 @@
             method="post"
             id="subscribe_form"
           >
-            <div  @clcik="openForm" class="input-group">
+            <div  @click="openForm" class="input-group">
               <input
                 class="form-control"
                
@@ -402,7 +402,7 @@
                 placeholder="Contactez nous"
               />
 
-              <div @clcik="openForm" class="input-group-btn">
+              <div @click="openForm" class="input-group-btn">
                 <button
                   type="button"
                   
@@ -542,7 +542,7 @@ export default {
   methods : {
 
     openForm() {
-      alert(0)
+      window.open('/')
      
     },
     checkEmail(email) {
