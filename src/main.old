@@ -1,0 +1,428 @@
+@font-face {
+  font-family: 'Cosmos-Medium';
+  src: url('/fonts/Cosmos-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cosmos-LightIt';
+  src: url('/fonts/Cosmos-LightIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cosmos-Light';
+  src: url('/fonts/Cosmos-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cosmos-ExtraBold';
+  src: url('/fonts/Cosmos-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$background-color: #c8e9fc;
+$background-footer-color : #9dc8ff;
+$red : #fc3b10;
+$white : #FFF;
+$black : #000;
+$orange : #fe9b00;
+$vert : #839b0f;
+
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 6rem;
+  overflow-y: auto;
+  background-color: $background-color;
+  font-family: 'Cosmos-Medium';
+}
+
+.top, .middle, .bottom {
+  position: absolute;
+  width: 100%;
+  max-width: 950px;
+  margin:0 auto;
+  left:0; right: 0;
+}
+
+.top {
+  height:270px;
+  top:300px;
+  text-align: center;
+
+  h1 {
+    position: absolute;
+    left:0;right:0;bottom:0;
+    color: $red;
+    font-size:45px;
+
+    @media screen and (max-width: 1080px) { font-size:40px;  }
+    @media screen and (max-width: 900px) { font-size:35px;  }    
+  }
+}
+
+.middle {
+  top:600px;
+  height:520px;
+}
+
+.bottom {
+  top:1120px;
+  text-align: center;
+}
+
+/* HOMEPAGE */
+.container-home {
+
+  background-image: url(./assets/images/background-home.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1700px auto;
+  height: 1300px;
+
+  .top {
+    @media screen and (max-width: 1080px) { top:205px; }
+    @media screen and (max-width: 900px) { top:145px; }
+    @media screen and (max-width: 768px) { 
+      top:20pt;
+      h1 {        
+        font-size: 1em;
+       }
+      }
+  }
+
+  .middle {
+    @media screen and (max-width: 1080px) { top:480px; height:380px;  }
+    @media screen and (max-width: 900px) { top:410px; }
+    @media screen and (max-width: 768px) { 
+      top:99vw;  
+    }
+  }
+
+  .bottom {
+    @media screen and (max-width: 1080px) {  top:900px; }
+    @media screen and (max-width: 900px) {  top:780px; }
+    @media screen and (max-width: 768px) { top:270vw;  }    
+  }
+
+  @media screen and (max-width: 1080px) { background-size: 1400px auto; height: 1100px; }
+  @media screen and (max-width: 900px) { background-size: 1200px auto;   height: 1000px; }
+
+  @media screen and (max-width: 768px) {
+    background-image: url(./assets/images/background-home-mobile-min.jpg);
+    background-size: 100% auto;
+    height: 350vw;
+  }
+
+  .blocks {
+    width:100%;
+    margin:0 auto;
+    max-width: 950px;
+    display: flex;
+
+    @media screen and (max-width: 1080px) {
+      max-width: 780px;
+    }
+    @media screen and (max-width: 900px) {
+      max-width: 680px;
+    }
+
+    @media screen and (max-width: 768px) {
+      display: block;
+      max-width: unset;
+    }
+
+    div {
+      width:50%;
+      @media screen and (max-width: 768px) { height:72vw;  width:100%;}
+    }
+  }
+}
+
+.bloc {
+    text-align: center;
+
+    h2 {
+      color: $red;
+      font-weight: bold;
+      font-size: 32px;
+
+      @media screen and (max-width: 900px) {
+        font-size: 25px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      margin-top: -20px;
+      font-weight: bold;
+      font-size: 16px;
+      font-family: 'Cosmos-Light';
+      @media screen and (max-width: 768px) {
+        font-size: 14px;;
+      }     
+    }
+
+    @media screen and (max-width: 768px) {
+      margin : 0 auto;
+
+    }
+}
+
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 950px;
+  left: 0;
+  right: 0;
+
+  @media screen and (max-width: 768px) {
+    display: unset;
+  }
+}
+
+
+.logo {
+  order: 1;
+  padding: 1em;
+  text-align: center;
+
+  @media screen and (max-width: 900px) {
+    img {
+      width: 265px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    text-align: left;
+    order: unset;
+    width: 70%;
+
+    img {
+      width: 100%
+    }
+  }
+}
+
+.burger {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  width: 8%;
+  display: none;
+  cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+.menu-mobile {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  background-color: $background-color;
+  background-image: url(./assets/images/menu-mobile.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+
+  img {
+    width: 35%;
+  }
+
+  .logo-mamie {
+    width: 60%;
+  }
+
+  .close {
+    position: absolute;
+    right: 10px;
+    width: 10%;
+    cursor: pointer;
+  }
+
+  div {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 10vw;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+    a {
+      font-family: 'Cosmos-Medium';
+      text-decoration: none;
+      font-size: 7vw;
+    }
+
+    .soc {
+      width: 15%;
+    }
+  }
+}
+
+.wonder {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 80px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+
+  @media screen and (max-width: 900px) {
+    top: 55px;
+    width:60%;
+    margin : 0 auto;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    top: unset;
+    padding-top: 16%;
+
+    img {
+      width: 40%;
+      min-width: 170px;
+    }
+  }
+}
+
+.item {
+  text-decoration: none;
+  padding: 14px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.item:nth-of-type(n+3) {
+  order: 2;
+
+  @media screen and (max-width: 768px) {
+    order: unset;
+  }
+}
+
+.red {
+  color: $red;
+}
+
+.green {
+  color: $vert;
+}
+
+.orange {
+  color: $orange;
+}
+
+.social {
+  color: $black;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: $background-footer-color;
+  color: $white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.8rem;
+  text-align: center;
+
+  .foot-link {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'Cosmos-Light';
+
+    @media screen and (max-width: 830px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 768px) {
+      display: block;
+      width: 30%;
+      height: 35px;
+      padding-top: 15px;
+      border-bottom: solid 1px;
+    }
+  }
+}
+
+.button {
+  padding: 10px;
+  width: 300px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: $red;
+  color: $white;
+  border: solid 1px $red;
+}
+
+
+.btn-white {
+  background-color: $white;
+  color: $red;
+  border: solid 1px $red;
+}

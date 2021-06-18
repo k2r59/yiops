@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body, html{
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+
+#head{
+	height: 40px;
+	color:#2980b9;
+	padding:5px ;
+}
+
+#countrySelection{
+	float:left;
+	cursor: pointer;
+}
+
+#countrySelection select{
+	background: #FFF;
+	border:none;
+	color:inherit;
+	font-size:inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline:none;
+    cursor: inherit;
+}
+
+#languageSelection{
+	float: right;
+}
+
+#titleGeneral{
+	text-align: center;
+	color:#343434;
+}
+
+#title{
+	margin-bottom: 20px;
+}
+
+#title img{
+	width:40%;
+	max-width: 193px;
+}
+
+#docName span{
+	color:#2980b9;
+}
+
+#content{
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.tab-panel{
+	height: 55px;
+	clear:both;
+}
+
+.tab{
+	display: inline-block;
+	height:100%;
+	margin-left:10px;
+	line-height: 55px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+/*.tab:hover, */.tab.active{
+	border-bottom: 3px solid #2980b9;
+}
+.tab a:after{
+	display: block;
+	position: absolute;
+	bottom:-3px;
+	left:50%;
+	content: '';
+	background: #2980b9;
+	height: 3px;
+	width:0;
+}
+
+.tab a:hover:after{
+	width:100%;
+	left: 0;
+	transition:all 0.2s linear;
+}
+
+.tab a {
+	display: block;
+	text-decoration: none;
+	color:#2980b9;
+}
+
+.panel.active{
+	display:block;
+}
+
+.panel{
+	display: none;
+}
+
+.tab-content{
+	margin-top: 3px;
+	box-shadow: 0 5px 8px -5px #cccccc inset;
+	padding: 20px 0	;
+}
+
+ .inputGlobal input{
+	background: white;
+	outline: none;
+	border:none;
+	height: 30px;
+}
+
+ .inputGlobal span{
+	display: inline-block;
+	border: 1px solid #d9d9dc;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	margin-right: 0;
+	border:none;
+}
+
+.inputGlobal{
+	display: inline-block;
+	/*width: 215px;*/
+	margin:0 auto;
+	border:1px solid #d8d8db;
+	box-shadow: 0px 0px 0px 3px #f4f4f6;
+	transition:all 0.3s linear;
+}
+
+.inputGlobal:hover{
+	box-shadow: 0px 0px 0px 3px #eeebeb;
+}
+
+.payButton{
+	border-radius: 5px;
+	border-left: none;
+	border-right:none;
+	display: block;
+	margin:0 auto;
+	cursor: pointer;
+	height: 40px;
+	width: 200px;
+	margin-top: 30px;
+	border-top: 1px solid #50d1ff;
+	border-bottom:1px solid #0cbaff;
+	background: #20c6ff;
+	color:#FFF;
+	font-style: italic;
+	font-size: 16px;
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+#foot{
+	color:#2980b9;
+	padding: 0 5px;
+}
+
+#foot a{
+	color:inherit;
+	text-decoration: none;
+}
+
+#foot a:hover{
+	text-decoration: underline;
+}
+
+#power{
+	float:left;
+}
+
+#contact{
+	float: right;
+}
+
+#errorMessage{
+	display: none;
+	position:fixed;
+	z-index:15;
+	width:100%;
+	padding:20px 50px 20px 10px;
+	background: #ff9898;
+	color:#980000;
+	border-bottom:1px solid #980000;
+}
+
+#errorMessage a{
+	padding-right : 10px;
+	color:inherit;
+	text-decoration:none;
+	font-style : none;
+}
+
+.internetplus p{
+	height: 30px;
+}
+
+.internetplus img{
+	height: 100%;
+	padding: 2px;
+}
+
+#internet-FR .internetplus{
+	padding-bottom: 20px;
+	border-bottom:1px solid #ededed;
+	box-shadow: 0 -5px 8px -5px #cccccc inset;
+}
+
+#internet-FR .internetplus:last-of-type{
+	border: none;
+	box-shadow: none;
+}
+
+.internetplus a.active img{
+	border:1px solid #ccc;
+	box-shadow: 0 2px 2px -2px #b1b1b1;
+}
+
+.errorMessage{
+	display: none;
+	color:#651616;
+	line-height: 18px;
+	height: 18px;
+	margin-bottom: 10px;
+}
+
+.iplusmessage{
+	font-size:10px ;
+	margin-top: 10px;
+	color:#2980b9;
+}
+
+.iplusmessage a {
+	color: inherit;
+}
+
+.switchIPlusSolution{
+	cursor: pointer;
+	margin:0 auto;
+	color:#2980b9;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	width: 300px;
+}
+
+.switchIPlusSolution div{
+	width: 46px;
+	height:38px;
+	float: left;
+	border:5px solid #2980b9;
+	border-radius: 50%;
+	padding-top:7px;
+}
+
+.hidden{
+	display: none;
+}
+
+.globalButton{
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.ou{
+	font-size: 16px;
+	color:#2880b9;
+
+	position: absolute;
+	height: 40px !important;
+	line-height: 40px;
+	top: -15px;
+	right: -50px;
+}
+
+.arrow{
+	width: 39px;
+	height: 61px !important;
+	position: absolute;
+	right: -85px;
+	top:5px;
+	background: url('/lib/arrow.png') no-repeat;
+	transition: all 0.1s linear;
+}
+
+#internetplusmobile .arrow{
+	transform: rotate(7deg);
+}
+
+#internetplusbox .arrow{
+	right:-95px;
+}

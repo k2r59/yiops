@@ -1,0 +1,53 @@
+%flex-center {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-left {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+%flex-right {
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+%center-div {
+	width: 100%;
+    margin: 0 auto;
+}
+
+%defaut-button {
+  border: none;
+  background-color: $background-button;
+  color: $button-font-color;
+  @include border-radius(20px);
+  padding: 0.35em 1.2em;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1em;
+
+  &:hover {
+    background-color: $background-button-hover;
+  }
+}
+
+%input-text {
+  width: 100%;
+  text-indent: 0.2em;
+  border: solid 1px $border-input;
+  transition: 0.3s;
+  
+  &::placeholder {
+   color: $input-placeholder;
+   font-size: 0.9em;
+ }
+ &:focus {
+  border: solid 1px $border-input-focus;
+  background-color: #efefef;
+}
+}

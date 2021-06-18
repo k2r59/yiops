@@ -1,0 +1,436 @@
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("./assets/fonts/Gotham-Medium.eot");
+  src: url("./assets/fonts/Gotham-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Gotham-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Gotham-Medium.woff") format("woff"),
+    url("./assets/fonts/Gotham-Medium.ttf") format("truetype"),
+    url("./assets/fonts/Gotham-Medium.svg#Gotham-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* configuration globale */
+
+$defaut-color: #000;
+$defaut-size: 1.2vw;
+$defaut-size-mobile: 4vw;
+$color_links: #000;
+$color_links_hover: rgb(202, 34, 34);
+$font-family: "Gotham Medium", sans-serif;
+$max-width: 2200px;
+$mobile-width: 768px;
+$cookie-background: #2f2169;
+$cookie-color: #fff;
+$mobile-menu-background: #2f2169;
+$mobile-menu-color: #fff;
+
+/* body */
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: $font-family;
+  padding: 0;
+  margin: 0;
+  font-size: $defaut-size;
+  @media screen and (max-width: $mobile-width) {
+    font-size: $defaut-size-mobile;
+  }
+}
+
+/* élements généraux */
+
+ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+}
+
+/* header & footer */
+header,
+footer {
+  width: 100%;
+}
+
+footer {
+  ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: center;
+
+    @media screen and (max-width: $mobile-width) {
+      display: block;
+    }
+
+    li {
+      margin-right: 20px;
+
+      @media screen and (max-width: $mobile-width) {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-right: 0;
+      }
+
+      a {
+        color: $color_links;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: $color_links_hover;
+      }
+    }
+  }
+
+  li:last-child {
+    margin-right: 0;
+  }
+}
+
+header {
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: $defaut-color;
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    height: 15vw;
+  }
+}
+
+/* main */
+main {
+  text-align: center;
+  min-height: 5vw;
+}
+
+/* formulaire */
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+
+  .step,
+  .mention,
+  .builder-buttons {
+    width: 100%;
+  }
+
+  div[name="first_name"],
+  div[name="last_name"],
+  div[name="full_name"],
+  div[name="ean"],
+  div[name="siret"],
+  div[name="siren"],
+  div[name="bic"],
+  div[name="email"],
+  div[name="phone"],
+  div[name="gender"],
+  div[name="iban"],
+  div[name="date"],
+  div[name="file"],
+  div[component="Adresse"],
+  div[name="input_text"],
+  div[name="select"] {
+    width: 100%;
+
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      text-align: left;
+
+      input,
+      select {
+        width: 100%;
+      }
+
+      label {
+        width: 100%;
+      }
+    }
+
+    .error {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  div[name="checkbox"] {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* mentions */
+.mentions {
+  width: 100%;
+  text-align: center;
+  margin: 5% 0;
+}
+
+/* contact */
+.contact {
+  text-align: center;
+  margin: 5% 0;
+}
+
+/* cookies law */
+.cookie-banner {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  color: $cookie-color;
+  font-size: $defaut-size;
+  text-align: left;
+
+  @media screen and (max-width: $mobile-width) {
+    font-size: $defaut-size-mobile;
+  }
+
+  a {
+    color: $cookie-color;
+  }
+
+  button {
+    margin-right: 2vw;
+    padding: 0.5vw 1vw;
+    background-color: $cookie-color;
+    color: $cookie-background;
+    border: none;
+    font-size: $defaut-size;
+    font-weight: bold;
+    cursor: pointer;
+
+    @media screen and (max-width: $mobile-width) {
+      font-size: $defaut-size-mobile;
+      padding: 2vw 2vw;
+    }
+  }
+
+  button:hover {
+    background-color: gray;
+  }
+}
+
+.Cookie,
+.Cookie--bottom,
+.Cookie--blood-orange--rounded {
+  background-color: $cookie-background !important;
+  border-top: solid 1px $cookie-color !important;
+}
+
+/* menu mobile */
+.vue-simple-drawer {
+  width: 80%;
+  background-color: $mobile-menu-background !important;
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      margin-bottom: 10vw;
+
+      a {
+        color: $mobile-menu-color !important;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.vue-simple-drawer .close-btn .leftright,
+.vue-simple-drawer .close-btn .rightleft {
+  background-color: white;
+}
+
+.menu-mobile {
+  display: none;
+  @media screen and (max-width: $mobile-width) {
+    display: inline;
+    position: absolute;
+    right: 2vw;
+    top: 0;
+    width: 10%;
+    fill: $mobile-menu-background;
+    cursor: pointer;
+  }
+}
+
+
+.status-page {
+  background-color: #f3f4f5;
+  border-radius: 10px;
+  width: 96%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  form {
+    width: 100%;
+    padding: 20px 30px;
+    display: block;
+
+    label[for="receipt"],
+    label[for="bar_code"] {
+      font-weight: 700;
+      margin-top: 20px;
+      color: #7a2182;
+    }
+
+    .upload-btn-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      width: 32vw;
+      cursor: pointer !important;
+
+      @media (max-width: $mobile-width) {
+        width: 100%;
+      }
+    }
+
+    .upload-btn {
+      margin-left: 0vw;
+      font-size: 12.9px !important;
+      background-size: 100% 100%;
+      background-color: #e16c5e;
+      color: transparent;
+      padding: 8px 20px;
+      width: 250px;
+      height: 30px;
+      border-radius: 0px;
+      border: none;
+
+      svg {
+        width: 25px;
+        vertical-align: middle;
+      }
+
+      @media (min-width: 1920px) {
+        width: 250px;
+        height: 40px;
+        margin-left: 0;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        height: 70px;
+        margin-left: 0;
+      }
+    }
+
+    .upload-btn-wrapper input[type="file"] {
+      font-size: 200px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      z-index: 9999999;
+      width: 32vw !important;
+      height: 4.5vw !important;
+      cursor: pointer !important;
+
+      @media (max-width: 768px) {
+        width: 100% !important;
+        height: 100px !important;
+      }
+    }
+
+    .upload-btn-set {
+      width: 100%;
+      display: block;
+      font-weight: bold;
+      color: #ea5d44 !important;
+      text-align: left;
+      margin: 0 auto;
+      margin-top: 5px;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .step {
+      display: none;
+    }
+
+    h1 {
+      width: 100%;
+      text-align: center;
+      text-transform: capitalize;
+
+      span {
+        color: #7a2182;
+      }
+
+      svg {
+        width: 30px;
+        vertical-align: middle;
+      }
+    }
+
+    h3,
+    .state {
+      width: 100%;
+      text-align: center;
+    }
+
+    .state {
+      margin-top: 50px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .status_infos {
+      display: block;
+      width: 100%;
+      text-align: left;
+
+      span {
+        font-weight: 700;
+        color: #7a2182;
+      }
+    }
+  }
+}
+
+.orange {
+  color: #ea5d44;
+}
+
+.red {
+  color: #ea5d44;
+}
+
+.green {
+  color: #31babc;
+}

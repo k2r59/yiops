@@ -1,0 +1,287 @@
+@import "_fonts.scss";
+@import "_reset.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_placeholders.scss";
+
+.mobile {
+  @media screen and (min-width: $mobile-width) {
+    display: none;
+  }
+}
+
+.desktop {
+  @include screen('mobile') {
+    display: none;
+  }
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+  font-size: $defaut-font-size;
+  color : $defaut-font-color;
+  font-family: $defaut-font;
+}
+
+a {
+    color: $defaut-link-color;   
+    &:hover {
+        color: $defaut-link-color-hover;   
+    }
+} 
+
+
+#app {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main {
+  // comment it to disable footer on bottom 
+   flex-grow: 1;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
+.menu-mobile {
+    width: 2em;
+    height: auto;
+    position: absolute;
+    right:0.9em;
+    top:0.5em;
+}
+
+.cover {
+  width: 100%;
+  background-color:  $menu-mobile-background;
+
+  ul {
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    li {
+       width: 100%;
+       text-align: center;
+       margin-bottom: 1em;
+
+       a {
+         color : $menu-mobile-colorlink;
+       }
+    }
+  }
+}
+
+footer {
+    
+    ul {
+      list-style-type: none;
+      @extend %flex-center;
+      margin:0;
+      padding:0;
+
+      li {
+        margin-right: 2em;
+      }
+
+      li:last-child {
+        margin-right: 0;
+      }
+    }
+}
+
+.Cookie {
+    background-color: $background-cookie-law;
+    font-family: $defaut-font;
+    color: $font-color-cookie-law;
+    font-size: 0.9em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    a {
+        color: $defaut-link-color;
+        text-decoration: none;
+    }
+
+    button {
+        margin-right: 1em;
+    }
+
+    @media screen and (min-width: $mobile-width) {
+        @include box-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+        width: 500px;
+        right: 30px;
+        left: unset;
+      }  
+}
+
+button {
+ @extend %defaut-button;
+}
+
+
+form {
+    width: 600px;
+    margin: 0 auto;
+
+    label {
+       width: 100%;
+       display: block;
+       text-align: left;
+       margin-top: 0.7em;
+       cursor: pointer;
+    }
+    
+    input, select, textarea {
+       @extend %input-text;
+    }
+
+    select {
+      height: 1.8em;
+    }
+
+    .mention {
+      font-size: 0.8em;
+      @extend %flex-left;
+      height: 4em;
+    }
+
+    .step {
+      font-size: 1em;
+       color: $red;
+    }
+
+    .info, .error, .cannotfind {
+      display: block;
+      width: 100%;
+      font-size: 0.9em;
+      line-height: 1em;
+      margin-top: 0.7em;
+      color: $color-infos;
+    }
+
+    .error {
+      color:$color-error;
+    }
+
+    .cannotfind {
+      a {
+        color: $color-infos;
+      }
+    }
+
+    .has-error {
+      border: solid 1px $border-input-focus;
+      background-color: $background-input-error;
+    }
+
+    div[name="gender"] {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+
+      label {
+        width: 20%;
+        cursor: pointer;
+      }
+
+      .boxes {
+        width: 80%;
+        display : flex;
+
+        input {
+          width: fit-content;
+          margin-top: 0.9em;
+          margin-right: 0.3em;
+        }
+      }
+    }
+
+    div[name="checkbox"] {
+      div {
+        div {
+           display: flex;
+           flex-direction: row-reverse;
+
+           input {
+             width: fit-content;
+             margin-top: 0.8em;
+             margin-right: 0.5em;
+           }
+           label {
+             width: 95%;
+             cursor: pointer;
+             font-size: 0.9em;
+           }
+        }
+      }
+    }
+
+    .builder-buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+    .upload-btn-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      width:6.4em; // size of clic zone
+    }
+    
+    .upload-btn {
+      border: 2px solid gray;
+      color: gray;
+      background-color: white;
+      padding: 0.2em 1em;
+      @include border-radius(8px);
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    
+    .upload-btn-wrapper input[type=file] {
+      font-size: 100px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+    }
+
+    .upload-btn-set {
+      width: 100%;
+      @extend %flex-left;
+      font-size: 0.9em;
+      color : $color-infos;
+
+    }
+}
+
+.captcha {
+    width: 100%;
+    text-align: center;
+    font-size: 0.6em;
+    color: $defaut-font-color;
+    margin-top: 2em;
+
+    a {
+        color: $defaut-link-color;   
+        
+        &:hover {
+            color: $defaut-link-color-hover;   
+        }
+    }  
+}
