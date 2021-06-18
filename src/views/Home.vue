@@ -395,7 +395,7 @@
             <div class="input-group">
               <input
                 class="form-control"
-                onclick="callback('contact');"
+                @clcik="openForm"
                 type="email"
                 name="email"
                 id="subscribe_email"
@@ -405,7 +405,7 @@
               <div class="input-group-btn">
                 <button
                   type="button"
-                  href="javascript:callback('contact');"
+                   @clcik="openForm"
                   id="subscribe_submit"
                   data-loading-text="&bull;&bull;&bull;"
                 >
@@ -540,6 +540,11 @@ export default {
      }
   },
   methods : {
+
+    openForm() {
+      alert(0)
+      window.open('/')
+    },
     checkEmail(email) {
        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
