@@ -392,20 +392,20 @@
             method="post"
             id="subscribe_form"
           >
-            <div class="input-group">
+            <div  @clcik="openForm" class="input-group">
               <input
                 class="form-control"
-                @clcik="openForm"
+               
                 type="email"
                 name="email"
                 id="subscribe_email"
                 placeholder="Contactez nous"
               />
 
-              <div class="input-group-btn">
+              <div @clcik="openForm" class="input-group-btn">
                 <button
                   type="button"
-                   @clcik="openForm"
+                  
                   id="subscribe_submit"
                   data-loading-text="&bull;&bull;&bull;"
                 >
@@ -543,7 +543,7 @@ export default {
 
     openForm() {
       alert(0)
-      window.open('/')
+     
     },
     checkEmail(email) {
        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
